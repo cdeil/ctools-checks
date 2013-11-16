@@ -1,4 +1,7 @@
+# Filename: power_law.py
 from gammalib import GEnergy, GModelSpectralPlaw
+
+
 
 # HESS 2006 publication Crab spectrum (2006A&A...457..899A)
 e0 = GEnergy(1, 'TeV')

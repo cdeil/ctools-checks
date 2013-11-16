@@ -1,3 +1,4 @@
+// Filename: power_law.cpp
 #include <iostream>
 #include "GammaLib.hpp"
 
