@@ -14,5 +14,3 @@ int main(void) {
   double int_flux = power_law.flux(emin, emax);
   std::cout << int_flux << std::endl; // cm^-2 sec^-1
 }
-
-
