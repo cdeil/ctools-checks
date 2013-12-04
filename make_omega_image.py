@@ -16,7 +16,7 @@ image = gammalib.GSkymap(projection, "CEL", x, y,
 # Fill the sky map with the model image
 for pix in range(image.npix()):
     try:
-    	STERADIAN_TO_DEG2 = np.degrees(1) ** 2
+        STERADIAN_TO_DEG2 = np.degrees(1) ** 2
         image[pix] = STERADIAN_TO_DEG2 * image.omega(pix)
     except RuntimeError:
         pass
