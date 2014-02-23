@@ -3,6 +3,11 @@
 # C extensions
 *.so
 
+# Data files
+*.fits
+*.root
+.ipynb_checkpoints
+
 # Packages
 *.egg
 *.egg-info
