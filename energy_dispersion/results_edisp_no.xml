@@ -2,9 +2,9 @@
 <source_library title="source library">
   <source name="Johnny Cash" type="PointSource">
     <spectrum type="Gaussian">
-      <parameter name="Normalization" value="0.994707" error="0.00315521" scale="1e-09" min="1e-07" max="1000" free="1" />
-      <parameter name="Mean" value="1.00002" error="0.000359005" scale="1e+07" min="0.01" max="100" free="1" />
-      <parameter name="Sigma" value="1.11754" error="0.00249707" scale="1e+06" min="0.01" max="100" free="1" />
+      <parameter name="Normalization" value="1.00163" error="0.0031659" scale="1e-09" min="1e-07" max="1000" free="1" />
+      <parameter name="Mean" value="1.00047" error="0.000358442" scale="1e+07" min="0.01" max="100" free="1" />
+      <parameter name="Sigma" value="1.11942" error="0.0024795" scale="1e+06" min="0.01" max="100" free="1" />
     </spectrum>
     <spatialModel type="SkyDirFunction">
       <parameter name="RA" value="0" scale="1" min="-360" max="360" free="0" />

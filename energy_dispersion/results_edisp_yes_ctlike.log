@@ -1,117 +1,117 @@
-2014-02-24T09:31:59: ********************************************************************************
-2014-02-24T09:31:59: *                                    ctlike                                    *
-2014-02-24T09:31:59: * ---------------------------------------------------------------------------- *
-2014-02-24T09:31:59: * Version: 00-05-00                                                            *
-2014-02-24T09:31:59: ********************************************************************************
-2014-02-24T09:31:59: +============+
-2014-02-24T09:31:59: | Parameters |
-2014-02-24T09:31:59: +============+
-2014-02-24T09:31:59:  infile ....................: events.fits
-2014-02-24T09:31:59:  stat ......................: POISSON
-2014-02-24T09:31:59:  refit .....................: no
-2014-02-24T09:31:59:  edisp .....................: no
-2014-02-24T09:31:59:  caldb .....................: /usr/local/gamma/share/caldb/cta
-2014-02-24T09:31:59:  irf .......................: kb_I_50h_v3
-2014-02-24T09:31:59:  srcmdl ....................: model.xml
-2014-02-24T09:31:59:  outmdl ....................: results_edisp_yes.xml
-2014-02-24T09:31:59:  chatter ...................: 2
-2014-02-24T09:31:59:  clobber ...................: yes
-2014-02-24T09:31:59:  debug .....................: no
-2014-02-24T09:31:59:  mode ......................: ql
-2014-02-24T09:31:59:  logfile ...................: results_edisp_yes_ctlike.log
-2014-02-24T09:31:59: 
-2014-02-24T09:31:59: +=============+
-2014-02-24T09:31:59: | Observation |
-2014-02-24T09:31:59: +=============+
-2014-02-24T09:31:59: === GObservations ===
-2014-02-24T09:31:59:  Number of observations ....: 1
-2014-02-24T09:31:59:  Number of predicted events : 0
-2014-02-24T09:31:59: === GCTAObservation ===
-2014-02-24T09:31:59:  Name ......................: 
-2014-02-24T09:31:59:  Identifier ................: 
-2014-02-24T09:31:59:  Instrument ................: CTA
-2014-02-24T09:31:59:  Statistics ................: POISSON
-2014-02-24T09:31:59:  Ontime ....................: 3600 s
-2014-02-24T09:31:59:  Livetime ..................: 3420 s
-2014-02-24T09:31:59:  Deadtime correction .......: 0.95
-2014-02-24T09:31:59: === GCTAPointing ===
-2014-02-24T09:31:59:  Pointing direction ........: (RA,Dec)=(0,0)
-2014-02-24T09:31:59: === GCTAResponse ===
-2014-02-24T09:31:59:  Response name .............: kb_I_50h_v3
-2014-02-24T09:31:59:  Energy dispersion .........: Not used
-2014-02-24T09:31:59: === GCaldb ===
-2014-02-24T09:31:59:  Database root .............: /usr/local/gamma/share/caldb/cta
-2014-02-24T09:31:59: === GCTAAeffPerfTable ===
-2014-02-24T09:31:59:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
-2014-02-24T09:31:59:  Number of energy bins .....: 20
-2014-02-24T09:31:59:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
-2014-02-24T09:31:59:  Offset angle dependence ...: Fixed sigma=3
-2014-02-24T09:31:59: === GCTAPsfPerfTable ===
-2014-02-24T09:31:59:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
-2014-02-24T09:31:59:  Number of energy bins .....: 20
-2014-02-24T09:31:59:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
-2014-02-24T09:31:59: === GCTAEdispPerfTable ===
-2014-02-24T09:31:59:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
-2014-02-24T09:31:59:  Number of energy bins .....: 20
-2014-02-24T09:31:59:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
-2014-02-24T09:31:59: === GCTABackgroundPerfTable ===
-2014-02-24T09:31:59:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
-2014-02-24T09:31:59:  Number of energy bins .....: 20
-2014-02-24T09:31:59:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
-2014-02-24T09:31:59:  Offset angle dependence ...: Fixed sigma=3
-2014-02-24T09:31:59: === GCTAEventList ===
-2014-02-24T09:31:59:  Number of events ..........: 99591
-2014-02-24T09:31:59:  Time interval .............: 51544.5 - 51544.5 days
-2014-02-24T09:31:59: 
-2014-02-24T09:31:59: +=================================+
-2014-02-24T09:31:59: | Maximum likelihood optimisation |
-2014-02-24T09:31:59: +=================================+
-2014-02-24T09:32:00:  *Iteration   0: logL=-6355.364, Lambda=1.0e-03
-2014-02-24T09:32:00:  *Iteration   1: logL=-5187.359, Lambda=1.0e-03, delta=1168.005, max(|grad|)=-13128.491333 [Mean:3]
-2014-02-24T09:32:00:  *Iteration   2: logL=-5037.782, Lambda=1.0e-04, delta=149.577, max(|grad|)=-5288.434044 [Mean:3]
-2014-02-24T09:32:01:  *Iteration   3: logL=-5032.421, Lambda=1.0e-05, delta=5.361, max(|grad|)=-745.176733 [Mean:3]
-2014-02-24T09:32:01:  *Iteration   4: logL=-5032.352, Lambda=1.0e-06, delta=0.069, max(|grad|)=-63.139085 [Mean:3]
-2014-02-24T09:32:02:  *Iteration   5: logL=-5032.351, Lambda=1.0e-07, delta=0.001, max(|grad|)=-6.745145 [Mean:3]
-2014-02-24T09:32:02:  *Iteration   6: logL=-5032.351, Lambda=1.0e-08, delta=0.000, max(|grad|)=-0.568277 [Mean:3]
-2014-02-24T09:32:03:  *Iteration   7: logL=-5032.351, Lambda=1.0e-09, delta=0.000, max(|grad|)=-0.059914 [Mean:3]
-2014-02-24T09:32:03: 
-2014-02-24T09:32:03: +=========================================+
-2014-02-24T09:32:03: | Maximum likelihood optimization results |
-2014-02-24T09:32:03: +=========================================+
-2014-02-24T09:32:03: === GOptimizerLM ===
-2014-02-24T09:32:03:  Optimized function value ..: 5032.351
-2014-02-24T09:32:03:  Absolute precision ........: 1e-06
-2014-02-24T09:32:03:  Optimization status .......: converged
-2014-02-24T09:32:03:  Number of parameters ......: 6
-2014-02-24T09:32:03:  Number of free parameters .: 3
-2014-02-24T09:32:03:  Number of iterations ......: 7
-2014-02-24T09:32:03:  Lambda ....................: 1e-10
-2014-02-24T09:32:03:  Maximum log likelihood ....: -5032.351
-2014-02-24T09:32:03:  Observed events  (Nobs) ...: 99591.000
-2014-02-24T09:32:03:  Predicted events (Npred) ..: 99590.000 (Nobs - Npred = 1)
-2014-02-24T09:32:03: === GModels ===
-2014-02-24T09:32:03:  Number of models ..........: 1
-2014-02-24T09:32:03:  Number of parameters ......: 6
-2014-02-24T09:32:03: === GModelSky ===
-2014-02-24T09:32:03:  Name ......................: Johnny Cash
-2014-02-24T09:32:03:  Instruments ...............: all
-2014-02-24T09:32:03:  Instrument scale factors ..: unity
-2014-02-24T09:32:03:  Observation identifiers ...: all
-2014-02-24T09:32:03:  Model type ................: PointSource
-2014-02-24T09:32:03:  Model components ..........: "SkyDirFunction" * "Gaussian" * "Constant"
-2014-02-24T09:32:03:  Number of parameters ......: 6
-2014-02-24T09:32:03:  Number of spatial par's ...: 2
-2014-02-24T09:32:03:   RA .......................: 0 [-360,360] deg (fixed,scale=1)
-2014-02-24T09:32:03:   DEC ......................: 0 [-90,90] deg (fixed,scale=1)
-2014-02-24T09:32:03:  Number of spectral par's ..: 3
-2014-02-24T09:32:03:   Normalization ............: 9.94707e-10 +/- 3.15521e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
-2014-02-24T09:32:03:   Mean .....................: 1.00002e+07 +/- 3590.05 [100000,1e+09] MeV (free,scale=1e+07)
-2014-02-24T09:32:03:   Sigma ....................: 1.11754e+06 +/- 2497.07 [10000,1e+08] MeV (free,scale=1e+06)
-2014-02-24T09:32:03:  Number of temporal par's ..: 1
-2014-02-24T09:32:03:   Constant .................: 1 (relative value) (fixed,scale=1,gradient)
-2014-02-24T09:32:03: 
-2014-02-24T09:32:03: +==============+
-2014-02-24T09:32:03: | Save results |
-2014-02-24T09:32:03: +==============+
-2014-02-24T09:32:03: 
-2014-02-24T09:32:03: Application "ctlike" terminated after 4 wall clock seconds, consuming 4.13552 seconds of CPU time.
+2014-02-24T09:34:24: ********************************************************************************
+2014-02-24T09:34:24: *                                    ctlike                                    *
+2014-02-24T09:34:24: * ---------------------------------------------------------------------------- *
+2014-02-24T09:34:24: * Version: 00-05-00                                                            *
+2014-02-24T09:34:24: ********************************************************************************
+2014-02-24T09:34:24: +============+
+2014-02-24T09:34:24: | Parameters |
+2014-02-24T09:34:24: +============+
+2014-02-24T09:34:24:  infile ....................: events.fits
+2014-02-24T09:34:24:  stat ......................: POISSON
+2014-02-24T09:34:24:  refit .....................: no
+2014-02-24T09:34:24:  edisp .....................: no
+2014-02-24T09:34:24:  caldb .....................: /usr/local/gamma/share/caldb/cta
+2014-02-24T09:34:24:  irf .......................: kb_I_50h_v3
+2014-02-24T09:34:24:  srcmdl ....................: model.xml
+2014-02-24T09:34:24:  outmdl ....................: results_edisp_yes.xml
+2014-02-24T09:34:24:  chatter ...................: 2
+2014-02-24T09:34:24:  clobber ...................: yes
+2014-02-24T09:34:24:  debug .....................: no
+2014-02-24T09:34:24:  mode ......................: ql
+2014-02-24T09:34:24:  logfile ...................: results_edisp_yes_ctlike.log
+2014-02-24T09:34:24: 
+2014-02-24T09:34:24: +=============+
+2014-02-24T09:34:24: | Observation |
+2014-02-24T09:34:24: +=============+
+2014-02-24T09:34:24: === GObservations ===
+2014-02-24T09:34:24:  Number of observations ....: 1
+2014-02-24T09:34:24:  Number of predicted events : 0
+2014-02-24T09:34:24: === GCTAObservation ===
+2014-02-24T09:34:24:  Name ......................: 
+2014-02-24T09:34:24:  Identifier ................: 
+2014-02-24T09:34:24:  Instrument ................: CTA
+2014-02-24T09:34:24:  Statistics ................: POISSON
+2014-02-24T09:34:24:  Ontime ....................: 3600 s
+2014-02-24T09:34:24:  Livetime ..................: 3420 s
+2014-02-24T09:34:24:  Deadtime correction .......: 0.95
+2014-02-24T09:34:24: === GCTAPointing ===
+2014-02-24T09:34:24:  Pointing direction ........: (RA,Dec)=(0,0)
+2014-02-24T09:34:24: === GCTAResponse ===
+2014-02-24T09:34:24:  Response name .............: kb_I_50h_v3
+2014-02-24T09:34:24:  Energy dispersion .........: Not used
+2014-02-24T09:34:24: === GCaldb ===
+2014-02-24T09:34:24:  Database root .............: /usr/local/gamma/share/caldb/cta
+2014-02-24T09:34:24: === GCTAAeffPerfTable ===
+2014-02-24T09:34:24:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
+2014-02-24T09:34:24:  Number of energy bins .....: 20
+2014-02-24T09:34:24:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
+2014-02-24T09:34:24:  Offset angle dependence ...: Fixed sigma=3
+2014-02-24T09:34:24: === GCTAPsfPerfTable ===
+2014-02-24T09:34:24:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
+2014-02-24T09:34:24:  Number of energy bins .....: 20
+2014-02-24T09:34:24:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
+2014-02-24T09:34:24: === GCTAEdispPerfTable ===
+2014-02-24T09:34:24:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
+2014-02-24T09:34:24:  Number of energy bins .....: 20
+2014-02-24T09:34:24:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
+2014-02-24T09:34:24: === GCTABackgroundPerfTable ===
+2014-02-24T09:34:24:  Filename ..................: /usr/local/gamma/share/caldb/cta/kb_I_50h_v3.dat
+2014-02-24T09:34:24:  Number of energy bins .....: 20
+2014-02-24T09:34:24:  Log10(Energy) range .......: 0.0199526 - 125.893 TeV
+2014-02-24T09:34:24:  Offset angle dependence ...: Fixed sigma=3
+2014-02-24T09:34:24: === GCTAEventList ===
+2014-02-24T09:34:24:  Number of events ..........: 100300
+2014-02-24T09:34:24:  Time interval .............: 51544.5 - 51544.5 days
+2014-02-24T09:34:24: 
+2014-02-24T09:34:24: +=================================+
+2014-02-24T09:34:24: | Maximum likelihood optimisation |
+2014-02-24T09:34:24: +=================================+
+2014-02-24T09:34:24:  *Iteration   0: logL=-5612.323, Lambda=1.0e-03
+2014-02-24T09:34:25:  *Iteration   1: logL=-4411.334, Lambda=1.0e-03, delta=1200.989, max(|grad|)=-14912.480511 [Mean:3]
+2014-02-24T09:34:25:  *Iteration   2: logL=-4241.406, Lambda=1.0e-04, delta=169.928, max(|grad|)=-5937.014932 [Mean:3]
+2014-02-24T09:34:26:  *Iteration   3: logL=-4234.180, Lambda=1.0e-05, delta=7.226, max(|grad|)=-914.563274 [Mean:3]
+2014-02-24T09:34:26:  *Iteration   4: logL=-4234.068, Lambda=1.0e-06, delta=0.111, max(|grad|)=-85.739501 [Mean:3]
+2014-02-24T09:34:27:  *Iteration   5: logL=-4234.067, Lambda=1.0e-07, delta=0.001, max(|grad|)=-9.581950 [Mean:3]
+2014-02-24T09:34:27:  *Iteration   6: logL=-4234.067, Lambda=1.0e-08, delta=0.000, max(|grad|)=-0.903738 [Mean:3]
+2014-02-24T09:34:28:  *Iteration   7: logL=-4234.067, Lambda=1.0e-09, delta=0.000, max(|grad|)=-0.098384 [Mean:3]
+2014-02-24T09:34:28: 
+2014-02-24T09:34:28: +=========================================+
+2014-02-24T09:34:28: | Maximum likelihood optimization results |
+2014-02-24T09:34:28: +=========================================+
+2014-02-24T09:34:28: === GOptimizerLM ===
+2014-02-24T09:34:28:  Optimized function value ..: 4234.067
+2014-02-24T09:34:28:  Absolute precision ........: 1e-06
+2014-02-24T09:34:28:  Optimization status .......: converged
+2014-02-24T09:34:28:  Number of parameters ......: 6
+2014-02-24T09:34:28:  Number of free parameters .: 3
+2014-02-24T09:34:28:  Number of iterations ......: 7
+2014-02-24T09:34:28:  Lambda ....................: 1e-10
+2014-02-24T09:34:28:  Maximum log likelihood ....: -4234.067
+2014-02-24T09:34:28:  Observed events  (Nobs) ...: 100300.000
+2014-02-24T09:34:28:  Predicted events (Npred) ..: 100300.000 (Nobs - Npred = 1.05123e-07)
+2014-02-24T09:34:28: === GModels ===
+2014-02-24T09:34:28:  Number of models ..........: 1
+2014-02-24T09:34:28:  Number of parameters ......: 6
+2014-02-24T09:34:28: === GModelSky ===
+2014-02-24T09:34:28:  Name ......................: Johnny Cash
+2014-02-24T09:34:28:  Instruments ...............: all
+2014-02-24T09:34:28:  Instrument scale factors ..: unity
+2014-02-24T09:34:28:  Observation identifiers ...: all
+2014-02-24T09:34:28:  Model type ................: PointSource
+2014-02-24T09:34:28:  Model components ..........: "SkyDirFunction" * "Gaussian" * "Constant"
+2014-02-24T09:34:28:  Number of parameters ......: 6
+2014-02-24T09:34:28:  Number of spatial par's ...: 2
+2014-02-24T09:34:28:   RA .......................: 0 [-360,360] deg (fixed,scale=1)
+2014-02-24T09:34:28:   DEC ......................: 0 [-90,90] deg (fixed,scale=1)
+2014-02-24T09:34:28:  Number of spectral par's ..: 3
+2014-02-24T09:34:28:   Normalization ............: 1.00163e-09 +/- 3.1659e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
+2014-02-24T09:34:28:   Mean .....................: 1.00047e+07 +/- 3584.42 [100000,1e+09] MeV (free,scale=1e+07)
+2014-02-24T09:34:28:   Sigma ....................: 1.11942e+06 +/- 2479.5 [10000,1e+08] MeV (free,scale=1e+06)
+2014-02-24T09:34:28:  Number of temporal par's ..: 1
+2014-02-24T09:34:28:   Constant .................: 1 (relative value) (fixed,scale=1,gradient)
+2014-02-24T09:34:28: 
+2014-02-24T09:34:28: +==============+
+2014-02-24T09:34:28: | Save results |
+2014-02-24T09:34:28: +==============+
+2014-02-24T09:34:28: 
+2014-02-24T09:34:28: Application "ctlike" terminated after 4 wall clock seconds, consuming 4.43946 seconds of CPU time.
