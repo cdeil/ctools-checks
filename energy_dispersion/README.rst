@@ -24,20 +24,24 @@ For GammaLib f5102f9 and ctools 20f257e I obtain the following results
 Fit with ``edisp=no``
 +++++++++++++++++++++
 
-Normalization ............: 1.00163e-09 +/- 3.1659e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
-Mean .....................: 1.00047e+07 +/- 3584.42 [100000,1e+09] MeV (free,scale=1e+07)
-Sigma ....................: 1.11942e+06 +/- 2479.5 [10000,1e+08] MeV (free,scale=1e+06)
+::
+
+	Normalization ............: 1.00163e-09 +/- 3.1659e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
+	Mean .....................: 1.00047e+07 +/- 3584.42 [100000,1e+09] MeV (free,scale=1e+07)
+	Sigma ....................: 1.11942e+06 +/- 2479.5 [10000,1e+08] MeV (free,scale=1e+06)
 
 
 Fit with ``edisp=yes``
 ++++++++++++++++++++++
 
-Normalization ............: 1.00163e-09 +/- 3.1659e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
-Mean .....................: 1.00047e+07 +/- 3584.42 [100000,1e+09] MeV (free,scale=1e+07)
-Sigma ....................: 1.11942e+06 +/- 2479.5 [10000,1e+08] MeV (free,scale=1e+06)
+::
+
+	Normalization ............: 1.00163e-09 +/- 3.1659e-12 [1e-16,1e-06] ph/cm2/s (free,scale=1e-09)
+	Mean .....................: 1.00047e+07 +/- 3584.42 [100000,1e+09] MeV (free,scale=1e+07)
+	Sigma ....................: 1.11942e+06 +/- 2479.5 [10000,1e+08] MeV (free,scale=1e+06)
 
 Conclusion
 ----------
 
-Currently the ``edisp`` parameter in ``ctlike`` has no effect.
-Fit results are not taking energy dispersion into account for ``edisp=yes``.
+* Currently the ``edisp`` parameter in ``ctlike`` has no effect.
+* Fit results are not taking energy dispersion into account for ``edisp=yes``.
