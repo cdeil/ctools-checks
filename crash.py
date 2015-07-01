@@ -18,5 +18,8 @@ sim.execute()
 # like.run()
 
 obs = sim.obs()
+print(sim.obs())
 del sim
+print('\n\n\n')
 print(obs)
+# import IPython; IPython.embed()
